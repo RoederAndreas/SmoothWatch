@@ -1,0 +1,16 @@
+/* "js" in the file name stands for "just styling" */
+
+html, body, canvas {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    transition: all 1s linear;
+}
+
+canvas {
+    object-fit: contain;
+}
